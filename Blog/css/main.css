@@ -138,6 +138,13 @@ img.rounded-circle{
  .footer input{
      background-color:#0B0C10 !important;
  }
+ @media only screen and (max-width: 760px){
+     .Hero-post-content img{
+         height: auto;
+         width: 70px;
+         max-width: 100%;
+     }
+ }
 
 
 
