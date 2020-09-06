@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2,h3,h4{
+    font-weight: 700;
+    color: #66FCF1;
+}
+h4{
+    font-size: 1.5rem;
+}
+a {
+    color: #66FCF1;
+}
+
+input{
+    background-color:#1f2833 !important;
+    color: #66FCF1 !important;
+
+}
+ .navbar{
+    background-color: black;
+    color: #66FCF1
+}
+.navbar-brand, .footer-logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.btn-main{
+    background-color: #66FCF1 !important;
+    color: black;
+}
+img{
+    filter: grayscale(50%) brightness(0.8);
+}
+img.rounded-circle{
+    filter: none ;
+    border: 2px solid #66FCF1;
+}
+         /* main section*/
+.Hero{
+    background-color: #1f2833;
+}
+.Hero-post{
+    position: relative;
+}
+.Hero-post-badges{
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+.Hero-post-badges>a{
+    display: block;
+    background-color:#0B0C10 ;
+    color: #66FCF1;
+}
+.Hero-post-content{
+    position: absolute;
+    bottom: 10px;
+    color: #66FCF1;
+}
+.Hero-post-content img{
+    border: 2px solid #66FCF1;
+}
+/* main blog*/
+.Blog-post{
+    background-color: #0B0C10;
+    color: #C5C6C7;
+}
+.Blog-post{
+    background-color: #1f2833;
+}
+.Blog-post h3{
+    font-size: 1.4rem;
+}
+.Blog-post img{
+    widows: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Blog-post p{
+    font-size: 0.9rem;
+}
+.Blog-post .col-sm-8{
+    border-left: 3px solid #66FCF1;
+}
+.badge{
+    margin-top: 1rem;
+}
+.badge > a{
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+/* Aside*/
+ .social-links{
+    background-color: #66FCF1;
+    color:#0B0C10;
+    font-size: 1.5rem;
+}
+ .secondary-color{
+    background-color: #1f2833;
+    color: #66FCF1;
+
+}
+ .aside-heading{
+     border-left: 3px solid #66FCF1;
+ }
+ .author p{
+     font-size: 0.9rem;
+ }
+ .author-social-links a{
+     margin-left: 0.8rem;
+ }
+ .badges{
+    margin-top: 1rem;
+}
+.badges > a{
+    margin-left: 0.5rem;
+    display: inline-block;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+/* footer*/
+ .footer{
+     background-color: #1f2833;
+     color: #C5C6C7;
+
+ }
+ .footer p{
+     font-size: 0.9rem;
+ }
+.footer a {
+     color: #66FCF1;
+}
+ .footer input{
+     background-color:#0B0C10 !important;
+ }
+
+
+
